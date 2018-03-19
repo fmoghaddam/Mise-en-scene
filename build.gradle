@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+
+mainClassName = ""
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	compile 'com.google.code.gson:gson:2.8.2'
+    testImplementation 'junit:junit:4.12'
+}
+
